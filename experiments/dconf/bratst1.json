@@ -1,0 +1,8 @@
+{ "dataset_type": "evaluation",
+  "dataset_name": "brats",
+  "datalist_key": "training_t1",
+  "num_workers": 24,
+  "batch_size": 1,
+  "output_mode": "3D",
+  "num_channels": 1
+}

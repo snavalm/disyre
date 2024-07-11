@@ -1,0 +1,14 @@
+{"dataset_type": "training",
+  "dataset_name": "camcan",
+  "anom_type": "fpi",
+  "datalist_key": "training_t2",
+  "datalist_key_val": "validation_t2",
+  "num_workers": 24,
+  "batch_size": 8,
+  "num_slices": 12,
+  "patch_size": [128,128],
+  "anom_patch_size": [64,64],
+  "no_anom_in_background": true,
+  "output_mode": "2Dfrom3D",
+  "num_channels": 1
+}
